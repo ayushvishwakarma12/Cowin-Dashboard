@@ -1,0 +1,59 @@
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #2cc6c6;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 300px;
+}
+
+.failure-heading {
+  font-weight: 500;
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
